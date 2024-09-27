@@ -58,6 +58,10 @@ header{
     .menu-list li {
       margin-bottom: 10px;
     }
-    
+    .menu-list li a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
 
   }
