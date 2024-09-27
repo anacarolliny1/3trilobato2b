@@ -7,3 +7,57 @@ header{
   overflow-y: hidden;
   position: relative;
 }
+.baner{
+  text-align: center;
+  color: aliceblue;
+  animation: shine 4s infinite alternate;
+  position: relative;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.2);
+}
+
+.baner h1{
+  font-size: 3em;
+  margin-bottom: 10px;}
+
+  .baner p{
+    font-size: 1.5em;
+  }
+  .dropdown {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .menu-btn{
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 98);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    .menu-btn:hover {
+      background-color: deeppink;
+    }
+    .menu-list {
+      display: none;
+      list-style: none;
+      padding: 10px;
+      background-color: aliceblue;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgb(0,0,0,0,1);
+      top: 100%;
+      left: 0;
+      z-index: 10;
+    }
+    .menu-list.show {
+      display: block;
+    }
+    .menu-list li {
+      margin-bottom: 10px;
+    }
+    
+
+  }
