@@ -38,6 +38,7 @@ header{
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+  }
     .menu-btn:hover {
       background-color: deeppink;
     }
@@ -64,4 +65,16 @@ header{
       font-size: 16px;
     }
 
+  .menu-list a:hover{
+    color: aquamarine;
+  }
+  .dropdown:hover .menu-list{
+    display: block;
+  }
+  @keyframes shine{ 
+    0%{
+      background-image: linear-gradient(90deg,000,000,000);
+      background-size: 200% 200%;
+      background-position: 100%;
+    }
   }
